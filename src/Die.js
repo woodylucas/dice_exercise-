@@ -7,7 +7,7 @@ class Die extends Component {
         this.state = {}; 
     }
     render() {
-        return  <i className={`fas fa-dice-${this.props.face}`}/>; 
+        return  <i className={`Die fas fa-dice-${this.props.face}`}/>; 
     }
 }
 
